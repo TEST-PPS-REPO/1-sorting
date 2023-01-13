@@ -83,7 +83,7 @@
             "only_deploy": false
         },
         {
-            "script": "random 1 10 random_seed",
+            "script": "random 1000 1 10 random_seed",
             "is_example": false,
             "only_deploy": false
         },
