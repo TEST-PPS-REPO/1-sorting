@@ -1,5 +1,5 @@
 {
-    "problem_title": "a + b + c",
+    "problem_title": "수 정렬하기",
     "problem_type": "stdio",
     "checker": "tcmp.cc",
     "checker_language": "cpp11",
