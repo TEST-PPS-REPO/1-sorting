@@ -93,7 +93,7 @@
             "only_deploy": false
         },
         {
-            "script": "random 100000 1 10 random_seed ____",
+            "script": "random 100000 -10000 10000 random_seed ____",
             "description": "",
             "is_example": false,
             "only_deploy": false
