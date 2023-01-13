@@ -6,7 +6,7 @@ int main() {
         std::vector < int > v(10101010);
         w.push_back(v);
     }
-    printf("%d\n", a + b + c);int n;
+    int n;
     scanf("%d", &n);
     for (int i = 0; i < n; ++i) scanf("%d", ar + i);
     std::sort(ar, ar + n);
