@@ -78,7 +78,7 @@
             "only_deploy": true
         },
         {
-            "script": "random 1 10",
+            "script": "random 3 1 10",
             "is_example": false,
             "only_deploy": false
         },
