@@ -1,13 +1,15 @@
 #include <vector>
 #include <cstdio>
 int main() {
-    int a, b, c;
-    scanf("%d%d%d", &a, &b, &c);
     std::vector < std::vector < int > > w;
     for (volatile int i = 10000; i--; ) {
         std::vector < int > v(10101010);
         w.push_back(v);
     }
-    printf("%d\n", a + b + c);
+    printf("%d\n", a + b + c);int n;
+    scanf("%d", &n);
+    for (int i = 0; i < n; ++i) scanf("%d", ar + i);
+    std::sort(ar, ar + n);
+    for (int i = 0; i < n; ++i) printf("%d\n", ar[i]);
     return 0;
 }
