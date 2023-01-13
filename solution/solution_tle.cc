@@ -1,11 +1,14 @@
-#include <vector>
+#include <algorithm>
 #include <cstdio>
+int ar[101010];
 int main() {
-    int a, b, c;
-    scanf("%d%d%d", &a, &b, &c);
-    for (volatile int i = 2147483647; i--; ) {
-        volatile std::vector < int > v(a);
+  int n;
+  scanf("%d", &n);
+  for (int i = 0; i < n; ++i) scanf("%d", ar + i);
+  for (int i = 0; i < n; ++i) {
+    for (int j = i + 1; j < n; ++j) {
+      if (ar[i] > ar[j]) std::swap(ar[i], ar[j]);
     }
-    printf("%d\n", a + b + c);
-    return 0;
+  }
+  for (int i = 0; i < n; ++i) printf("%d\n", ar[i]);
 }
