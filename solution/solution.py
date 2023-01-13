@@ -1,2 +1,7 @@
-a, b, c = map(int, input().split())
-print(a + b + c)
+n = int(input())
+a = []
+for i in range(n):
+  a.append(int(input()))
+a.sort()
+for i in a:
+  print(i)
