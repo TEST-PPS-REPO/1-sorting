@@ -54,7 +54,7 @@
         {
             "name": "solution_wa.cc",
             "language": "cpp",
-            "type": ""
+            "type": "WA"
         }
     ],
     "generators": [
