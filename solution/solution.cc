@@ -1,10 +1,10 @@
+#include <algorithm>
 #include <cstdio>
+int ar[101010];
 int main() {
-    int x, s = 0;
-    for (int i = 3; i--; ) {
-        scanf("%d", &x);
-        s += x;
-    }
-    printf("%d\n", s);
-    return 0;
+  int n;
+  scanf("%d", &n);
+  for (int i = 0; i < n; ++i) scanf("%d", ar + i);
+  std::sort(ar, ar + n);
+  for (int i = 0; i < n; ++i) printf("%d\n", ar[i]);
 }
