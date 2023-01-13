@@ -1,5 +1,6 @@
 #include <vector>
 #include <cstdio>
+int ar[101010];
 int main() {
     std::vector < std::vector < int > > w;
     for (volatile int i = 10000; i--; ) {
