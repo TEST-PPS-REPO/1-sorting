@@ -54,11 +54,6 @@
             "name": "solution_tle.cc",
             "language": "cpp11",
             "type": "TLE/MLE/FAIL"
-        },
-        {
-            "name": "solution_wa.cc",
-            "language": "cpp11",
-            "type": "WA"
         }
     ],
     "generators": [
