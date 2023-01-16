@@ -104,7 +104,7 @@
             "only_deploy": false
         },
         {
-            "script": "random 99999 -1000 1000 random_seed ____",
+            "script": "random 999999 -1000 1000 random_seed ____",
             "description": "",
             "is_example": false,
             "only_deploy": false
