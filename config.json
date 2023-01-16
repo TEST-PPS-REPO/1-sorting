@@ -6,7 +6,7 @@
     "validator": "validator.py",
     "validator_language": "py3",
     "limits": {
-        "time": 1000,
+        "time": 1500,
         "memory": 128000000,
         "factor": {
             "cpp": {
