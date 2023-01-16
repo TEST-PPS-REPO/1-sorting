@@ -1,6 +1,6 @@
 #include <algorithm>
 #include <cstdio>
-int ar[101010];
+int ar[1010101];
 int main() {
   int n;
   scanf("%d", &n);
