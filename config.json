@@ -39,7 +39,7 @@
         {
             "name": "solution.py",
             "language": "py3",
-            "type": "AC"
+            "type": "AC/TLE"
         },
         {
             "name": "solution_mle.cc",
