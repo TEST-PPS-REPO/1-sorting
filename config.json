@@ -55,6 +55,11 @@
             "name": "solution_wa.cc",
             "language": "cpp",
             "type": "WA"
+        },
+        {
+            "name": "solution_not_optimized.py",
+            "language": "",
+            "type": ""
         }
     ],
     "generators": [
