@@ -58,7 +58,7 @@
         },
         {
             "name": "solution_not_optimized.py",
-            "language": "",
+            "language": "py3",
             "type": ""
         }
     ],
