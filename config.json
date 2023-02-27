@@ -47,6 +47,11 @@
             "type": "TLE/MLE/FAIL"
         },
         {
+            "name": "solution_not_optimized.py",
+            "language": "py3",
+            "type": "AC"
+        },
+        {
             "name": "solution_tle.cc",
             "language": "cpp11",
             "type": "TLE/MLE/FAIL"
@@ -55,11 +60,6 @@
             "name": "solution_wa.cc",
             "language": "cpp",
             "type": "WA"
-        },
-        {
-            "name": "solution_not_optimized.py",
-            "language": "py3",
-            "type": ""
         }
     ],
     "generators": [
