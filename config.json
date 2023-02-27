@@ -49,7 +49,7 @@
         {
             "name": "solution_not_optimized.py",
             "language": "py3",
-            "type": "AC"
+            "type": "AC/TLE"
         },
         {
             "name": "solution_tle.cc",
